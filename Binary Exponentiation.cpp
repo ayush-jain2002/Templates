@@ -1,4 +1,5 @@
-  int binexp(int a,int b){
+  const int mod=1000000007;
+int binexp(int a,int b){
       int result=1;
       while(b>0){
           if(b&1){
