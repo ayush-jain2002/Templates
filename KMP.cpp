@@ -12,7 +12,7 @@ vector<int>prefix_function(string s){
   }
   return p;
 }
-Optimized algo for z
+// Optimized algo for z
 // void z(string s) {
 //     int n = s.size();
 //     vector<int> z(n,0);
