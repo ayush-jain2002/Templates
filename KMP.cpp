@@ -14,8 +14,9 @@ vector<int>prefix_function(string s){
 }
 int main(){ 
   string s="abccccccabcd";
-  vector<int>p=prefix_function(s);
+ 
   string t="ca";
+   vector<int>p=prefix_function(t);
   int pos=-1;
   int i(0),j(0);
   while(i<s.size()){
